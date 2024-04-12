@@ -90,8 +90,10 @@ p {
 .articles-left-title {
     margin-top: 0;
     margin-bottom: 25px;
-    font-family: 2px;
     text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 2px;
 }
 
 .articles-left-btn {
@@ -109,9 +111,12 @@ p {
 
 .articles-left-btn::before {
     display: inline-block;
-    background-image: url(../svg/Vector\ \(2\).svg);
+    background-image: url(../svg/star.svg);
     background-repeat: no-repeat;
-    background-size: 20px 20px;
+    background-position: center center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
     margin-right: 12px;
     content: "";
 }
@@ -170,11 +175,13 @@ p {
 }
 
 .article-right-info-title {
-    font-weight: 400px;
+    font-weight: 400;
     margin-top: 0;
     margin-bottom: 4px;
     width: 100%;
     font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.2;
     text-transform: uppercase;
 }
 
@@ -222,5 +229,6 @@ p {
     background: #1E90FF;
     padding: 12px 209px;
     border: none;
+    color: white;
     border-radius: 4px;
 }
